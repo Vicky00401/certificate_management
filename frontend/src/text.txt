@@ -1,0 +1,11 @@
+ const [startdate, setStartdate] = useState("");
+  const [enddate, setEnddate] = useState("");
+   setStartdate(data.startDate);
+      setEnddate(data.endDate);
+      const a = startdate.split('T')[0]
+      const b = enddate.split('T')[0]
+      setStartdate(a);
+      setEnddate(b);
+      console.log(startdate,enddate)
+       <p><strong>Start date:</strong> {startdate}</p>
+            <p><strong>End date:</strong> {enddate}</p>
